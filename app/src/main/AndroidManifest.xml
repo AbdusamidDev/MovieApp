@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="developer.abdusamid.moviesapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_movie_app"
+        android:label="Movie App"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MoviesApp">
+        <activity android:name=".Avangers" />
+        <activity
+            android:name=".AddMovie"
+            android:label="Add Movie" />
+        <activity
+            android:name=".Edit"
+            android:label="Edit Movies" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Movies">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

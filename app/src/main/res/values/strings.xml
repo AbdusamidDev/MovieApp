@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Movies App</string>
+    <string name="movie_name">Movie Name</string>
+    <string name="about_movies">Description Of Movie</string>
+    <string name="movie_authors">Movie Authors</string>
+    <string name="movie_date">Movie Date</string>
+    <string name="movie_edit">Edit Movie</string>
+    <string name="save">Save</string>
+    <string name="movie">Movies</string>
+    <string name="add_movie">Add Movie</string>
+</resources>
